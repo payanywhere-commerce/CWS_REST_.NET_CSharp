@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SampleCodeREST">
+</Property><Property Name="Solution File" Value="C:\Integrations\SVN\SolutionsConsulting\Code Samples\1.17.18\CWS_REST_.NET_CSharp\SampleCodeREST.sln">
+</Property><Property Name="Date" Value="Friday, October 12, 2012">
+</Property><Property Name="Time" Value="12:07 PM">
+</Property></Properties><Event ErrorLevel="0" Project="SampleCodeREST" Source="SampleCodeREST.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SampleCodeREST" Source="SampleCodeREST.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SampleCodeREST.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SampleCodeREST.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SampleCodeREST" Source="SampleCodeREST.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

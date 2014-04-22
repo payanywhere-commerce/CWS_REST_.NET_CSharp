@@ -1,0 +1,68 @@
+*** In some cases both REST XML and Json samples will be provided
+
+*************************************
+***** HOST CAPTURE LOGICAL FLOW *****
+*************************************
+
+***** AuthorizeAndCapture *****
+
+
+***** ReturnById *****
+
+
+***** Authorize *****
+
+
+***** Undo *****
+
+
+***** Authorize *****
+
+
+***** Capture *****
+
+
+***** ReturnById *****
+
+
+***** ReturnUnlinked *****
+
+
+***** Verify *****
+
+
+*****************************************
+***** TERMINAL CAPTURE LOGICAL FLOW *****
+*****************************************
+
+***** Authorize (for ReturnById) *****
+
+
+***** Authorize (for Undo) *****
+
+
+***** Undo *****
+
+
+***** ReturnUnlinked *****
+
+
+***** CaptureAll *****
+
+
+***** ReturnById *****
+
+
+***** Authorize (for CaptureSelective) *****
+
+
+***** CaptureSelective *****
+
+
+***** AuthorizeAndCapture (PINDebit transaction only) *****
+
+
+***** Adjust *****
+
+
+***** Verify *****

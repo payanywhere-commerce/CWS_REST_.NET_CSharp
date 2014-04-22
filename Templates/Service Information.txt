@@ -1,0 +1,29 @@
+*** In some cases both REST XML and Json samples will be provided
+
+***** SignOnWithToken *****
+
+
+***** SaveApplicationData *****
+
+
+***** GetApplicationData *****
+
+
+***** DeleteApplicationData *****
+
+
+***** GetServiceInformation *****
+
+
+***** GetMerchantProfileByIds *****
+
+
+***** SaveMerchantProfiles *****
+
+
+***** GetMerchantProfileById *****
+
+
+***** DeleteMerchantProfile *****
+
+
