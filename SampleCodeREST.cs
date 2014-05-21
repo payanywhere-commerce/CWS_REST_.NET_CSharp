@@ -20,15 +20,15 @@ namespace SampleCode
 {
     public partial class SampleCodeREST : Form
     {
-        private string _IdentityToken = "PHNhbWw6QXNzZXJ0aW9uIE1ham9yVmVyc2lvbj0iMSIgTWlub3JWZXJzaW9uPSIxIiBBc3NlcnRpb25JRD0iX2NhMzMwNzBmLWY0NzItNDg4ZS1hMDM5LTY1NzBhNzc1ZWQ0MSIgSXNzdWVyPSJJcGNBdXRoZW50aWNhdGlvbiIgSXNzdWVJbnN0YW50PSIyMDExLTEwLTEwVDE0OjA5OjI1LjY4OFoiIHhtbG5zOnNhbWw9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjEuMDphc3NlcnRpb24iPjxzYW1sOkNvbmRpdGlvbnMgTm90QmVmb3JlPSIyMDExLTEwLTEwVDE0OjA5OjI1LjY4OFoiIE5vdE9uT3JBZnRlcj0iMjAxNC0xMC0xMFQxNDowOToyNS42ODhaIj48L3NhbWw6Q29uZGl0aW9ucz48c2FtbDpBZHZpY2U+PC9zYW1sOkFkdmljZT48c2FtbDpBdHRyaWJ1dGVTdGF0ZW1lbnQ+PHNhbWw6U3ViamVjdD48c2FtbDpOYW1lSWRlbnRpZmllcj4zRTc1Nzk3ODJFNTAwMDAxPC9zYW1sOk5hbWVJZGVudGlmaWVyPjwvc2FtbDpTdWJqZWN0PjxzYW1sOkF0dHJpYnV0ZSBBdHRyaWJ1dGVOYW1lPSJTQUsiIEF0dHJpYnV0ZU5hbWVzcGFjZT0iaHR0cDovL3NjaGVtYXMuaXBjb21tZXJjZS5jb20vSWRlbnRpdHkiPjxzYW1sOkF0dHJpYnV0ZVZhbHVlPjNFNzU3OTc4MkU1MDAwMDE8L3NhbWw6QXR0cmlidXRlVmFsdWU+PC9zYW1sOkF0dHJpYnV0ZT48c2FtbDpBdHRyaWJ1dGUgQXR0cmlidXRlTmFtZT0iU2VyaWFsIiBBdHRyaWJ1dGVOYW1lc3BhY2U9Imh0dHA6Ly9zY2hlbWFzLmlwY29tbWVyY2UuY29tL0lkZW50aXR5Ij48c2FtbDpBdHRyaWJ1dGVWYWx1ZT4zOGFmMmRlOS0zOWFkLTQ3ZmUtOTI1NS0xZjBkNjQzZGNiZmY8L3NhbWw6QXR0cmlidXRlVmFsdWU+PC9zYW1sOkF0dHJpYnV0ZT48c2FtbDpBdHRyaWJ1dGUgQXR0cmlidXRlTmFtZT0ibmFtZSIgQXR0cmlidXRlTmFtZXNwYWNlPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcyI+PHNhbWw6QXR0cmlidXRlVmFsdWU+M0U3NTc5NzgyRTUwMDAwMTwvc2FtbDpBdHRyaWJ1dGVWYWx1ZT48L3NhbWw6QXR0cmlidXRlPjwvc2FtbDpBdHRyaWJ1dGVTdGF0ZW1lbnQ+PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+PFNpZ25lZEluZm8+PENhbm9uaWNhbGl6YXRpb25NZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiPjwvQ2Fub25pY2FsaXphdGlvbk1ldGhvZD48U2lnbmF0dXJlTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnI3JzYS1zaGExIj48L1NpZ25hdHVyZU1ldGhvZD48UmVmZXJlbmNlIFVSST0iI19jYTMzMDcwZi1mNDcyLTQ4OGUtYTAzOS02NTcwYTc3NWVkNDEiPjxUcmFuc2Zvcm1zPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjZW52ZWxvcGVkLXNpZ25hdHVyZSI+PC9UcmFuc2Zvcm0+PFRyYW5zZm9ybSBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMTAveG1sLWV4Yy1jMTRuIyI+PC9UcmFuc2Zvcm0+PC9UcmFuc2Zvcm1zPjxEaWdlc3RNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjc2hhMSI+PC9EaWdlc3RNZXRob2Q+PERpZ2VzdFZhbHVlPnYvYnpMRkZEMlNXc0JYdUx1eisxdDAweDIvYz08L0RpZ2VzdFZhbHVlPjwvUmVmZXJlbmNlPjwvU2lnbmVkSW5mbz48U2lnbmF0dXJlVmFsdWU+dTBxd0pGOEY1bWJrOXE0bjUxMUtiREcwbEJsMHhSZFlsZTZ6TitzUFlMd3dNaW4weVUwTkVtaWZUY01sR00yWktpc2xueXRHLzdSUE1uR0tGSmlKMUh2SzJPZUQwNk05SDFBRE5hbW94VHNtdHFHRldkeksxTitsaVhVWENUdVBRMTZLMkVnMUt0Sk9pVmM4UWRaR3BJTjZwRDYxR3ZneXhMUWR1MWY5b2NOU3FlYlcvc0RHbUdJZjZ4cXRQYkJEYmxJcmFPdkJHMjFDUW1tQTNaUWFuMVFnTnZnWFRSbWFvbUJadkhpWWFHV3B2VWtJMWM3TVhDL3JBRUNjclRrbW1yeDJleTJZTnlzenBKQm9XN1pFWW1BeDh0aVJKQ2ZBSGFnUUZnY1BvclNhWnJsWnpHREx1TFMxQTkweEVmbjVGdFpNZUNiSG0xcU5vaFVTSTUwM3hBPT08L1NpZ25hdHVyZVZhbHVlPjxLZXlJbmZvPjxvOlNlY3VyaXR5VG9rZW5SZWZlcmVuY2UgeG1sbnM6bz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3NzLzIwMDQvMDEvb2FzaXMtMjAwNDAxLXdzcy13c3NlY3VyaXR5LXNlY2V4dC0xLjAueHNkIj48bzpLZXlJZGVudGlmaWVyIFZhbHVlVHlwZT0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3NzL29hc2lzLXdzcy1zb2FwLW1lc3NhZ2Utc2VjdXJpdHktMS4xI1RodW1icHJpbnRTSEExIj4xK0xuclBRVHNvOFE5SElpSkFGR2xpS2VvUkU9PC9vOktleUlkZW50aWZpZXI+PC9vOlNlY3VyaXR5VG9rZW5SZWZlcmVuY2U+PC9LZXlJbmZvPjwvU2lnbmF0dXJlPjwvc2FtbDpBc3NlcnRpb24+";
+        private string _IdentityToken = "PHNhbWw6QXNzZXJ0aW9uIE1ham9yVmVyc2lvbj0iMSIgTWlub3JWZXJzaW9uPSIxIiBBc3NlcnRpb25JRD0iXzQxNzlkZDA0LTMwMmMtNGI5Zi1iZmI1LTM3YjIzYzU2NmE5NyIgSXNzdWVyPSJJcGNBdXRoZW50aWNhdGlvbiIgSXNzdWVJbnN0YW50PSIyMDE0LTA1LTIwVDIyOjI2OjEyLjEwMVoiIHhtbG5zOnNhbWw9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjEuMDphc3NlcnRpb24iPjxzYW1sOkNvbmRpdGlvbnMgTm90QmVmb3JlPSIyMDE0LTA1LTIwVDIyOjI2OjEyLjEwMVoiIE5vdE9uT3JBZnRlcj0iMjAxNy0wNS0yMFQyMjoyNjoxMi4xMDFaIj48L3NhbWw6Q29uZGl0aW9ucz48c2FtbDpBZHZpY2U+PC9zYW1sOkFkdmljZT48c2FtbDpBdHRyaWJ1dGVTdGF0ZW1lbnQ+PHNhbWw6U3ViamVjdD48c2FtbDpOYW1lSWRlbnRpZmllcj5DRUFBODkyOUJGQjAwMDAxPC9zYW1sOk5hbWVJZGVudGlmaWVyPjwvc2FtbDpTdWJqZWN0PjxzYW1sOkF0dHJpYnV0ZSBBdHRyaWJ1dGVOYW1lPSJTQUsiIEF0dHJpYnV0ZU5hbWVzcGFjZT0iaHR0cDovL3NjaGVtYXMuaXBjb21tZXJjZS5jb20vSWRlbnRpdHkiPjxzYW1sOkF0dHJpYnV0ZVZhbHVlPkNFQUE4OTI5QkZCMDAwMDE8L3NhbWw6QXR0cmlidXRlVmFsdWU+PC9zYW1sOkF0dHJpYnV0ZT48c2FtbDpBdHRyaWJ1dGUgQXR0cmlidXRlTmFtZT0iU2VyaWFsIiBBdHRyaWJ1dGVOYW1lc3BhY2U9Imh0dHA6Ly9zY2hlbWFzLmlwY29tbWVyY2UuY29tL0lkZW50aXR5Ij48c2FtbDpBdHRyaWJ1dGVWYWx1ZT41YWE2NTBlMS1lNjQwLTRmYTYtOGU2NC1iM2QxNWU0Mzc0YzY8L3NhbWw6QXR0cmlidXRlVmFsdWU+PC9zYW1sOkF0dHJpYnV0ZT48c2FtbDpBdHRyaWJ1dGUgQXR0cmlidXRlTmFtZT0ibmFtZSIgQXR0cmlidXRlTmFtZXNwYWNlPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcyI+PHNhbWw6QXR0cmlidXRlVmFsdWU+Q0VBQTg5MjlCRkIwMDAwMTwvc2FtbDpBdHRyaWJ1dGVWYWx1ZT48L3NhbWw6QXR0cmlidXRlPjwvc2FtbDpBdHRyaWJ1dGVTdGF0ZW1lbnQ+PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+PFNpZ25lZEluZm8+PENhbm9uaWNhbGl6YXRpb25NZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiPjwvQ2Fub25pY2FsaXphdGlvbk1ldGhvZD48U2lnbmF0dXJlTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnI3JzYS1zaGExIj48L1NpZ25hdHVyZU1ldGhvZD48UmVmZXJlbmNlIFVSST0iI180MTc5ZGQwNC0zMDJjLTRiOWYtYmZiNS0zN2IyM2M1NjZhOTciPjxUcmFuc2Zvcm1zPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjZW52ZWxvcGVkLXNpZ25hdHVyZSI+PC9UcmFuc2Zvcm0+PFRyYW5zZm9ybSBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMTAveG1sLWV4Yy1jMTRuIyI+PC9UcmFuc2Zvcm0+PC9UcmFuc2Zvcm1zPjxEaWdlc3RNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjc2hhMSI+PC9EaWdlc3RNZXRob2Q+PERpZ2VzdFZhbHVlPmFaTnBGdDJnWUtvcEFYckZhcVNUMTFWNk4rRT08L0RpZ2VzdFZhbHVlPjwvUmVmZXJlbmNlPjwvU2lnbmVkSW5mbz48U2lnbmF0dXJlVmFsdWU+d3NEaWRERU0vdDFJdHQ1eG96Z2ZpTG4vL0lCSVlOY0tiUVpjWElDU3FXQWFoaER3WWpQWnU1NzlwbUtLN2ZiTnVRUVEyOGxyTWxRUEI3aGVYTDlFWHZqVzVEdGdlbU9sSldOeG0xdkZ1RDVyOEpuK3o0UmhvYkhyZDIyK25lL1lWZVRHbTNicWt0aS9zKzdKeFg4MkxSazhCUkdPTG04K2NKMXRUaENDREtMUG82cjBzTUVmbzQ4aGtLSkRCRFo2WkdQTmU0bWZPeFV1Y3BENk5GbHAxQjR5VzAwNnAvc3pjRURwRWpBbWRuaUVoTkE3T1A0RlVGUmlsM0tiWGN3ekdmWW1pdUJ6dkN6UFVhbk5seUFSQVRZRmozeUlmRVpFL0hFcVBhNlhxU2U3VHM5bmFoSTU0K0JnMU40NExJSWI2UTlSQVM3ZjJsUklEbS8vVE5iTDh3PT08L1NpZ25hdHVyZVZhbHVlPjxLZXlJbmZvPjxvOlNlY3VyaXR5VG9rZW5SZWZlcmVuY2UgeG1sbnM6bz0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3NzLzIwMDQvMDEvb2FzaXMtMjAwNDAxLXdzcy13c3NlY3VyaXR5LXNlY2V4dC0xLjAueHNkIj48bzpLZXlJZGVudGlmaWVyIFZhbHVlVHlwZT0iaHR0cDovL2RvY3Mub2FzaXMtb3Blbi5vcmcvd3NzL29hc2lzLXdzcy1zb2FwLW1lc3NhZ2Utc2VjdXJpdHktMS4xI1RodW1icHJpbnRTSEExIj5IY2cvdDBCSE1hSFdWeGs4c3EvelF5NHpySmc9PC9vOktleUlkZW50aWZpZXI+PC9vOlNlY3VyaXR5VG9rZW5SZWZlcmVuY2U+PC9LZXlJbmZvPjwvU2lnbmF0dXJlPjwvc2FtbDpBc3NlcnRpb24+";
         //The following PTLS SocketId is used for Sandbox and Certification transactions. Once certified, the software company will 
         //receive a production PTLS SocketId. This value is intended to be compiled into the software application that was certified.
         private string _PTLSSocketId =
             @"MIIEwjCCA6qgAwIBAgIBEjANBgkqhkiG9w0BAQUFADCBsTE0MDIGA1UEAxMrSVAgUGF5bWVudHMgRnJhbWV3b3JrIENlcnRpZmljYXRlIEF1dGhvcml0eTELMAkGA1UEBhMCVVMxETAPBgNVBAgTCENvbG9yYWRvMQ8wDQYDVQQHEwZEZW52ZXIxGjAYBgNVBAoTEUlQIENvbW1lcmNlLCBJbmMuMSwwKgYJKoZIhvcNAQkBFh1hZG1pbkBpcHBheW1lbnRzZnJhbWV3b3JrLmNvbTAeFw0wNjEyMTUxNzQyNDVaFw0xNjEyMTIxNzQyNDVaMIHAMQswCQYDVQQGEwJVUzERMA8GA1UECBMIQ29sb3JhZG8xDzANBgNVBAcTBkRlbnZlcjEeMBwGA1UEChMVSVAgUGF5bWVudHMgRnJhbWV3b3JrMT0wOwYDVQQDEzRFcWJwR0crZi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL0E9MS4wLAYJKoZIhvcNAQkBFh9zdXBwb3J0QGlwcGF5bWVudHNmcmFtZXdvcmsuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD7BTLqXah9t6g4W2pJUfFKxJj/R+c1Dt5MCMYGKeJCMvimAJOoFQx6Cg/OO12gSSipAy1eumAqClxxpR6QRqO3iv9HUoREq+xIvORxm5FMVLcOv/oV53JctN2fwU2xMLqnconD0+7LJYZ+JT4z3hY0mn+4SFQ3tB753nqc5ZRuqQIDAQABo4IBVjCCAVIwCQYDVR0TBAIwADAdBgNVHQ4EFgQUk7zYAajw24mLvtPv7KnMOzdsJuEwgeYGA1UdIwSB3jCB24AU3+ASnJQimuunAZqQDgNcnO2HuHShgbekgbQwgbExNDAyBgNVBAMTK0lQIFBheW1lbnRzIEZyYW1ld29yayBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkxCzAJBgNVBAYTAlVTMREwDwYDVQQIEwhDb2xvcmFkbzEPMA0GA1UEBxMGRGVudmVyMRowGAYDVQQKExFJUCBDb21tZXJjZSwgSW5jLjEsMCoGCSqGSIb3DQEJARYdYWRtaW5AaXBwYXltZW50c2ZyYW1ld29yay5jb22CCQD/yDY5hYVsVzA9BglghkgBhvhCAQQEMBYuaHR0cHM6Ly93d3cuaXBwYXltZW50c2ZyYW1ld29yay5jb20vY2EtY3JsLnBlbTANBgkqhkiG9w0BAQUFAAOCAQEAFk/WbEleeGurR+FE4p2TiSYHMau+e2Tgi+L/oNgIDyvAatgosk0TdSndvtf9YKjCZEaDdvWmWyEMfirb5mtlNnbZz6hNpYoha4Y4ThrEcCsVhfHLLhGZZ1YaBD+ZzCQA7vtb0v5aQb25jX262yPVshO+62DPxnMiJevSGFUTjnNisVniX23NVouUwR3n12GO8wvzXF8IYb5yogaUcVzsTIxEFQXEo1PhQF7JavEnDksVnLoRf897HwBqcdSs0o2Fpc/GN1dgANkfIBfm8E9xpy7k1O4MuaDRqq5XR/4EomD8BWQepfJY0fg8zkCfkuPeGjKkDCitVd3bhjfLSgTvDg==";
 
-        private string _svcInfo = @"https://cws-01.cert.ipcommerce.com:443/REST/2.0.18/SvcInfo";
-        private string _txn = @"https://cws-01.cert.ipcommerce.com:443/REST/2.0.18/Txn";
-        private string _tms = @"https://cws-01.cert.ipcommerce.com:443/REST/2.0.18/DataServices/TMS";
+        private string _svcInfo = @"https://api.cert.nabcommerce.com/REST/2.0.18/SvcInfo";
+        private string _txn = @"https://api.cert.nabcommerce.com/REST/2.0.18/Txn";
+        private string _tms = @"https://api.cert.nabcommerce.com/REST/2.0.18/DataServices/TMS";
 
         private string _SessionToken = "";
         private DateTime _dtSessionToken;
@@ -39,7 +39,7 @@ namespace SampleCode
         private string _ApplicationProfileId = "";
         private string _WorkflowId = "";
         private string _ServiceId = "";
-        private string _MerchantProfileId = ""; 
+        private string _MerchantProfileId = "";
         private string _AvailableWorkflowIds = "";
         private response _LastResponse;
         private bool _blnResponseMessage;
@@ -73,7 +73,7 @@ namespace SampleCode
             cboMerchantProfileAction.Items.Add(new item("Save Merchant Data", "3"));
             cboMerchantProfileAction.Items.Add(new item("Delete Merchant Data", "4"));
             cboMerchantProfileAction.SelectedIndex = 0;
-			
+
             TxtLoadIdentityToken.Text = _IdentityToken;
 
             //Format the dateTimePicker for TMS queries
@@ -129,7 +129,7 @@ namespace SampleCode
         {
             checkTokenExpire();
 
-            item item = (item) cboApplicationDataAction.SelectedItem;
+            item item = (item)cboApplicationDataAction.SelectedItem;
             _ApplicationProfileId = txtApplicationProfileId.Text;
             if (item.Value == "0")
             {
@@ -175,12 +175,12 @@ namespace SampleCode
 
             try
             {
-                HttpWebRequest request = (HttpWebRequest) WebRequest.Create(_url);
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(_url);
                 request.Method = _method; //Valid values are "GET", "POST", "PUT" and "DELETE"
                 request.UserAgent =
                     "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50215)";
                 request.ContentType = "text/xml; charset=utf-8";
-                request.Timeout = 1000*60;
+                request.Timeout = 1000 * 60;
                 //Authorization is made up of UserName and Password in the format [UserName]:[Password]. In this case the identity token is the only value set and is the [UserName]
                 String _Authorization = "Basic " +
                                         Convert.ToBase64String(Encoding.ASCII.GetBytes(_UserName + ":" + _UserPassword));
@@ -206,7 +206,7 @@ namespace SampleCode
                 RTxtSummary.SelectionColor = Color.Black;
                 RTxtSummary.AppendText(_HeaderInformation + _body + "\r\n");
 
-                HttpWebResponse response = (HttpWebResponse) request.GetResponse();
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
                 using (Stream data = response.GetResponseStream())
                 {
@@ -226,7 +226,7 @@ namespace SampleCode
                         }
                         else
                         {
-//Confirm processing of last transaction
+                            //Confirm processing of last transaction
                             if (!_blnResponseMessage && TransactionType.NotSet != _transactionType)
                             {
                                 MessageBox.Show("Successfully processed " + _transactionType +
@@ -234,7 +234,7 @@ namespace SampleCode
                                 _blnResponseMessage = true;
                             }
                         }
-                        
+
                         txtResponse.Text = text;
                         RTxtSummary.SelectionColor = Color.Blue;
                         RTxtSummary.AppendText("\r\nRESPONSE : \r\n");
@@ -256,9 +256,9 @@ namespace SampleCode
                     }
                 }
             }
-            catch (System.Net.WebException ex2)
+            catch (WebException ex2)
             {
-//Lets get the webException returned in the response
+                //Lets get the webException returned in the response
                 using (Stream data2 = ex2.Response.GetResponseStream())
                 {
                     try
@@ -334,10 +334,10 @@ namespace SampleCode
                 {
                     response = (HttpWebResponse)request.GetResponse();
                 }
-                catch(Exception e)
+                catch (Exception e)
                 {
                     if (_method != "DELETE")
-                        throw(e);
+                        throw (e);
                 }
                 using (Stream data = response.GetResponseStream())
                 {
@@ -423,18 +423,18 @@ namespace SampleCode
         public void checkTokenExpire()
         {
             if (DateTime.UtcNow.Subtract(_dtSessionToken).TotalMinutes > 25)
-                //Use 25 as the baseline for renewing session tokens
+            //Use 25 as the baseline for renewing session tokens
             {
                 try
                 {
                     _SessionToken = "";
                     string strResponse = "";
 
-                    if(ChkUseJsonInstead.Checked)
+                    if (ChkUseJsonInstead.Checked)
                     {
                         strResponse = CreateRequest_Json(_svcInfo + @"/token", "GET", "", _IdentityToken.Trim(), "",
                                    TransactionType.NotSet);
-                        _SessionToken = strResponse.Substring(1, strResponse.Length-2);
+                        _SessionToken = strResponse.Substring(1, strResponse.Length - 2);
                     }
                     else
                     {
@@ -444,7 +444,7 @@ namespace SampleCode
                         doc.LoadXml(strResponse);
                         _SessionToken = doc.FirstChild.InnerText;
                     }
-                    
+
                     _dtSessionToken = DateTime.UtcNow;
 
                     //At this point enable all steps
@@ -495,7 +495,7 @@ namespace SampleCode
 
         private void cboServiceIds_SelectedIndexChanged(object sender, EventArgs e)
         {
-            item item = (item) cboServiceIds.SelectedItem;
+            item item = (item)cboServiceIds.SelectedItem;
             _ServiceId = item.Value;
 
             _WorkflowId = _ServiceId;
@@ -533,7 +533,7 @@ namespace SampleCode
 
         private void cboAvailableProfiles_SelectedIndexChanged(object sender, EventArgs e)
         {
-            item item = (item) cboAvailableProfiles.SelectedItem;
+            item item = (item)cboAvailableProfiles.SelectedItem;
             _MerchantProfileId = item.Value;
         }
 
@@ -569,7 +569,7 @@ namespace SampleCode
         private void GetApplicationData()
         {
             /*
-             *URL https://cws-01.ipcommerce.com/REST/x.xx.x/SvcInfo/appProfile/{applicationProfileId}
+             *URL https://api.cert.nabcommerce.com/REST/2.0.18/SvcInfo/appProfile/{applicationProfileId}
              * Action GET 
             */
 
@@ -595,7 +595,7 @@ namespace SampleCode
         private void SaveApplicationData()
         {
             /*
-             *URL https://cws-01.ipcommerce.com/REST/x.xx.x/SvcInfo/appProfile 
+             *URL https://api.cert.nabcommerce.com/REST/2.0.18/SvcInfo/appProfile 
              * Action PUT 
             */
             try
@@ -605,7 +605,7 @@ namespace SampleCode
                 if (ChkUseJsonInstead.Checked)
                 {
                     string strApplicationData = @"{"
-                                + "\"ApplicationAttended\":"+ _industryTypeValues.ApplicationAttended +","
+                                + "\"ApplicationAttended\":" + _industryTypeValues.ApplicationAttended + ","
                                 + "\"ApplicationLocation\":\"" + _industryTypeValues.ApplicationLocation + "\","
                                 + "\"ApplicationName\":\"TestApp\","
                                  + "\"HardwareType\":\"PC\","
@@ -614,8 +614,8 @@ namespace SampleCode
                                 + "\"ReadCapability\":\"" + _industryTypeValues.ReadCapability + "\","
                                 + "\"SerialNumber\":208093707,"
                                 + "\"SoftwareVersion\":1,"
-                                + "\"SoftwareVersionDate\":\"2012-05-15T00:00:00\","
-                                //+ "\"DeviceSerialNumber\":\"TestApp\","
+                                + "\"SoftwareVersionDate\":\"2014-05-20T00:00:00\","
+                        //+ "\"DeviceSerialNumber\":\"TestApp\","
                                 + "\"EncryptionType\":\"MagneSafeV4V5Compatible\""//<!-- [Magensa : Valid Values 'IPADV1Compatible', 'MagneSafeV4V5Compatible', 'NotSet'] -->
                                 + "}"
                         ;
@@ -624,7 +624,7 @@ namespace SampleCode
                                                        "", TransactionType.NotSet);
 
                     //ToDo: Temporary way to get teh applciationProfileId
-                    _ApplicationProfileId = strResponse.Substring(strResponse.IndexOf("appProfile") + 11, strResponse.LastIndexOf("\"")-(strResponse.IndexOf("appProfile") + 11));
+                    _ApplicationProfileId = strResponse.Substring(strResponse.IndexOf("appProfile") + 11, strResponse.LastIndexOf("\"") - (strResponse.IndexOf("appProfile") + 11));
 
                 }
                 else
@@ -643,7 +643,7 @@ namespace SampleCode
                                                 + @"<SoftwareVersionDate>2012-05-15T00:00:00</SoftwareVersionDate>"
                                                 + @"<VendorId></VendorId>"
                                                 + @"<EncryptionType>MagneSafeV4V5Compatible</EncryptionType>"//<!-- [Magensa : Valid Values 'IPADV1Compatible', 'MagneSafeV4V5Compatible', 'NotSet'] -->
-                                                //+ @"<DeviceSerialNumber>123</DeviceSerialNumber>"
+                        //+ @"<DeviceSerialNumber>123</DeviceSerialNumber>"
                                                 + @"</ApplicationData> "
                         ;
 
@@ -678,7 +678,7 @@ namespace SampleCode
 
         private void DeleteApplicationData()
         {
-            /*URL https://cws-01.ipcommerce.com/REST/x.xx.x/SvcInfo/appProfile/{applicationProfileId} 
+            /*URL https://api.cert.nabcommerce.com/REST/2.0.18/SvcInfo/appProfile/{applicationProfileId} 
              * Action DELETE 
             */
             checkTokenExpire(); //Always verify that a valid token exists
@@ -729,7 +729,7 @@ namespace SampleCode
 
                 //XmlNodeList nodes = doc.SelectNodes("ServiceInformation/BankcardServices/BankcardService");
                 XmlNodeList nodes = currentServiceInformation.GetElementsByTagName("BankcardService");
-                
+
                 foreach (XmlNode node in nodes)
                 {
                     cboServiceIds.Items.Add(new item("[" + node["ServiceId"].InnerText + "] " + node["ServiceName"].InnerXml, node["ServiceId"].InnerText));
@@ -853,7 +853,7 @@ namespace SampleCode
         private void GetMerchantProfile()
         {
             /*
-             *URL https://cws-01.ipcommerce.com/REST/x.xx.x/SvcInfo/merchProfile/{merchantProfileId}?serviceId={serviceId} 
+             *URL https://api.cert.nabcommerce.com/REST/2.0.18/SvcInfo/merchProfile/{merchantProfileId}?serviceId={serviceId} 
              * Action GET 
             */
 
@@ -911,11 +911,11 @@ namespace SampleCode
         {
             /*
              *URL To return all Merchant Profiles by serviceId:
-              https://cws-01.ipcommerce.com/REST/x.xx.x/SvcInfo/merchProfile?serviceId={serviceId}
+              https://api.cert.nabcommerce.com/REST/2.0.18/SvcInfo/merchProfile?serviceId={serviceId}
 
               To return all Merchant Profiles by merchantProfileId (across multiple services):
 
-              https://cws-01.ipcommerce.com/REST/x.xx.x/SvcInfo/merchProfile?merchantProfileId={merchantProfileId} 
+              https://api.cert.nabcommerce.com/REST/2.0.18/SvcInfo/merchProfile?merchantProfileId={merchantProfileId} 
               Action GET  
              */
 
@@ -992,7 +992,7 @@ namespace SampleCode
         private void SaveMerchantProfile()
         {
             /*
-             * URL https://cws-01.ipcommerce.com/REST/x.xx.x/SvcInfo/merchProfile?serviceId={serviceId} 
+             * URL https://api.cert.nabcommerce.com/REST/2.0.18/SvcInfo/merchProfile?serviceId={serviceId} 
              * Action PUT 
              */
             checkTokenExpire();//Always verify that a valid token exists
@@ -1078,7 +1078,7 @@ namespace SampleCode
                     //+ "<ServiceName i:nil='true'/>"//NOTE : Not used by Chase Orbital
                     + "<LastUpdated>0001-01-01T00:00:00</LastUpdated>"
                     + "<MerchantData>"
-                    //+ "<CustomerServiceInternet>ipcommerce.com</CustomerServiceInternet>"
+                    //+ "<CustomerServiceInternet>payanywherecommerce.com</CustomerServiceInternet>"
                         + "<CustomerServicePhone>720 3773700</CustomerServicePhone>"
                         + "<Language>ENG</Language>"
                         + "<Address>"
@@ -1134,7 +1134,7 @@ namespace SampleCode
         private void DeleteMerchantProfileId(string _MerchantProfileId, string _ServiceId)
         {
             /*
-             * URL https://cws-01.ipcommerce.com/REST/x.xx.x/SvcInfo/merchProfile/{merchantProfileId}?serviceId={serviceId} 
+             * URL https://api.cert.nabcommerce.com/REST/x.xx.xx/SvcInfo/merchProfile/{merchantProfileId}?serviceId={serviceId} 
              * Action DELETE 
             */
             checkTokenExpire();//Always verify that a valid token exists
@@ -1167,7 +1167,8 @@ namespace SampleCode
 
         private void CmdProcess_Click(object sender, EventArgs e)
         {
-            item item = (item) CboProcessString.SelectedItem;
+            item item = (item)CboProcessString.SelectedItem;
+
             string operationType = item.Value;
 
             checkTokenExpire(); //Always verify that a valid token exists
@@ -1257,7 +1258,7 @@ namespace SampleCode
             }
             catch (System.Net.WebException ex2)
             {
-//Lets get the webException returned in the response
+                //Lets get the webException returned in the response
                 using (Stream data2 = ex2.Response.GetResponseStream())
                 {
                     try
@@ -1287,12 +1288,12 @@ namespace SampleCode
         {
             if (ChkUseJsonInstead.Checked)
             {
-                string strAuthorizeAndCaptureRequest = 
+                string strAuthorizeAndCaptureRequest =
                     "{\"$type\":\"AuthorizeAndCaptureTransaction,http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Rest\","
                     + "\"ApplicationProfileId\":\"" + _ApplicationProfileId + "\","
                     + "\"MerchantProfileId\":\"" + _MerchantProfileId + "\","
                     + buildTransaction_Json()
-                    + "}" 
+                    + "}"
                     ;
 
                 CreateRequest_Json(_txn + @"/" + _WorkflowId, "POST", strAuthorizeAndCaptureRequest, _SessionToken, "",
@@ -1300,7 +1301,7 @@ namespace SampleCode
             }
             else
             {
-                string strAuthorizeAndCaptureRequest = 
+                string strAuthorizeAndCaptureRequest =
                     "<SubmitTransaction xmlns:i='http://www.w3.org/2001/XMLSchema-instance' i:type='AuthorizeAndCaptureTransaction' xmlns='http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Rest'>"
                     + "<ApplicationProfileId>" + _ApplicationProfileId + "</ApplicationProfileId>"
                     + "<MerchantProfileId>" + _MerchantProfileId + "</MerchantProfileId>"
@@ -1317,7 +1318,7 @@ namespace SampleCode
         {
             if (ChkUseJsonInstead.Checked)
             {
-                string strAuthorizeAndCaptureRequest = 
+                string strAuthorizeAndCaptureRequest =
                     "{\"$type\":\"AuthorizeTransaction,http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Rest\","
                     + "\"ApplicationProfileId\":\"" + _ApplicationProfileId + "\","
                     + "\"MerchantProfileId\":\"" + _MerchantProfileId + "\","
@@ -1325,12 +1326,12 @@ namespace SampleCode
                     + "}"
                     ;
 
-                    CreateRequest_Json(_txn + @"/" + _WorkflowId, "POST", strAuthorizeAndCaptureRequest, _SessionToken, "",
-                              TransactionType.Authorize);
+                CreateRequest_Json(_txn + @"/" + _WorkflowId, "POST", strAuthorizeAndCaptureRequest, _SessionToken, "",
+                          TransactionType.Authorize);
             }
             else
             {
-                string strAuthorizeAndCaptureRequest = 
+                string strAuthorizeAndCaptureRequest =
                     "<SubmitTransaction xmlns:i='http://www.w3.org/2001/XMLSchema-instance' i:type='AuthorizeTransaction' xmlns='http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Rest'>"
                    + "<ApplicationProfileId>" + _ApplicationProfileId + "</ApplicationProfileId>"
                    + "<MerchantProfileId>" + _MerchantProfileId + "</MerchantProfileId>"
@@ -1343,7 +1344,7 @@ namespace SampleCode
             }
         }
 
-		private void Adjust()
+        private void Adjust()
         {
             if (_LastResponse != null && _LastResponse.TransactionType == TransactionType.AuthorizeAndCapture)
             {
@@ -1369,7 +1370,7 @@ namespace SampleCode
                     string strAuthorizeAndCaptureId = "<SubmitTransaction xmlns:i='http://www.w3.org/2001/XMLSchema-instance' i:type='Adjust' xmlns='http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Rest'>"
                             + "<ApplicationProfileId>" + _ApplicationProfileId + "</ApplicationProfileId>"
                               + "<DifferenceData xmlns:d2p1='http://schemas.ipcommerce.com/CWS/v2.0/Transactions'>"
-                                + "<d2p1:Amount>2.00</d2p1:Amount>"  
+                                + "<d2p1:Amount>2.00</d2p1:Amount>"
                                 + "<d2p1:TransactionId>" + _LastResponse.TransactionId + "</d2p1:TransactionId>"
                                 + "<d2p1:TipAmount>2.00</d2p1:TipAmount>"
                             + "</DifferenceData>"
@@ -1437,14 +1438,14 @@ namespace SampleCode
                 string strCapture = "{\"$type\":\"CaptureAll,http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Rest\","
                         + "\"ApplicationProfileId\":\"" + _ApplicationProfileId + "\","
                         + "\"MerchantProfileId\":\"" + _MerchantProfileId + "\","
-                        //+ "\"DifferenceData\":"
-                        //+ "{"
-                        //    + "\"$type\":\"BankcardCapture,http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Bankcard\","
-                        //    + "\"Amount\":\"" + TxtAmount.Text + "\","
-                        //    + "\"TransactionId\":\"" + _LastResponse.TransactionId + "\","
-                        //    + "\"TipAmount\":\"0.00\","
-                        //    + "\"Addendum\":null"
-                        //+ "}"
+                    //+ "\"DifferenceData\":"
+                    //+ "{"
+                    //    + "\"$type\":\"BankcardCapture,http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Bankcard\","
+                    //    + "\"Amount\":\"" + TxtAmount.Text + "\","
+                    //    + "\"TransactionId\":\"" + _LastResponse.TransactionId + "\","
+                    //    + "\"TipAmount\":\"0.00\","
+                    //    + "\"Addendum\":null"
+                    //+ "}"
                     + "}"
                     ;
                 CreateRequest_Json(_txn + @"/" + _WorkflowId, "PUT", strCapture, _SessionToken, "", TransactionType.CaptureAll);
@@ -1466,7 +1467,7 @@ namespace SampleCode
                 CreateRequest(_txn + @"/" + _WorkflowId, "PUT", strCapture, _SessionToken, "", TransactionType.CaptureAll);
             }
         }
-		
+
         private void CaptureSelective()
         {
             if (ChkUseJsonInstead.Checked)
@@ -1478,8 +1479,8 @@ namespace SampleCode
                             + "\"$type\":\"BankcardCapturePro,http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Bankcard/Pro\","
                             + "\"Amount\":\"" + TxtAmount.Text + "\","
                             + "\"TransactionId\":\"" + _LastResponse.TransactionId + "\""
-                            //+ "\"TipAmount\":\"0.00\","
-                            //+ "\"Addendum\":null"
+                    //+ "\"TipAmount\":\"0.00\","
+                    //+ "\"Addendum\":null"
                         + "}], "
                         + "\"TransactionIds\":"
                         + "[\"" + _LastResponse.TransactionId + "\""
@@ -1504,7 +1505,7 @@ namespace SampleCode
                             + "<a:string>" + _LastResponse.TransactionId + "</a:string>"
                         + "</TransactionIds>"
                     + "</CaptureTransactions>"
-                    ;                    
+                    ;
 
                 CreateRequest(_txn + @"/" + _WorkflowId, "PUT", strCapture, _SessionToken, "", TransactionType.CaptureSelective);
             }
@@ -1612,7 +1613,7 @@ namespace SampleCode
                         + "<ApplicationProfileId>" + _ApplicationProfileId + "</ApplicationProfileId>"
                         + "<DifferenceData xmlns:d2p1='http://schemas.ipcommerce.com/CWS/v2.0/Transactions' xmlns:d2p2='http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Bankcard' i:type='d2p2:BankcardUndo'>"
                             + "<d2p1:TransactionId>" + _LastResponse.TransactionId + "</d2p1:TransactionId>"
-                            //+ "<d2p2:PINDebitReason>NotSet</d2p2:PINDebitReason>"
+                        //+ "<d2p2:PINDebitReason>NotSet</d2p2:PINDebitReason>"
                         + "</DifferenceData>"
                         + "</SubmitTransaction>"
                         ;
@@ -1657,7 +1658,7 @@ namespace SampleCode
                               TransactionType.Verify);
             }
         }
-		
+
         private string buildTransaction()
         {
             string txn = "";
@@ -1665,10 +1666,10 @@ namespace SampleCode
             if (_industryTypeValues.EntryMode == "TrackDataFromMSR")
             {
                 trackData = "<d2p2:Track1Data i:nil='true'/><d2p2:Track2Data>5454545454545454=13121010134988000010</d2p2:Track2Data>";
-                //trackData = "<d2p2:Track1Data>B5454545454545454^IPCOMMERCE/TESTCARD^1312101013490000000001000880000</d2p2:Track1Data><d2p2:Track2Data i:nil='true'/>";
+                //trackData = "<d2p2:Track1Data>B5454545454545454^/TESTCARD^1312101013490000000001000880000</d2p2:Track1Data><d2p2:Track2Data i:nil='true'/>";
             }
 
-            if(ChkProcessAsMagensa.Checked)
+            if (ChkProcessAsMagensa.Checked)
             {//Use the Magensa fields below.
                 txn = "<Transaction xmlns:d2p1='http://schemas.ipcommerce.com/CWS/v2.0/Transactions' xmlns:d2p2='http://schemas.ipcommerce.com/CWS/v2.0/Transactions/Bankcard' i:type='d2p2:BankcardTransaction'>"
                            + "<d2p1:CustomerData i:nil='true'/>"
@@ -1686,8 +1687,8 @@ namespace SampleCode
                                    + "<d2p2:PAN>5454545454545454</d2p2:PAN>"
                                    + "<d2p2:Expire>1210</d2p2:Expire>"
                                    + trackData
-                                   //+ "<d2p2:Track1Data i:nil='true'/>"
-                                   //+ "<d2p2:Track2Data i:nil='true'/>"
+                    //+ "<d2p2:Track1Data i:nil='true'/>"
+                    //+ "<d2p2:Track2Data i:nil='true'/>"
                                + "</d2p2:CardData>"
                                + "<d2p2:CardSecurityData>"
                                    + "<d2p2:AVSData>"
@@ -1703,7 +1704,12 @@ namespace SampleCode
                                    + "<d2p2:CVData i:nil='true'/>"//Used for Magensa
                                    + "<d2p2:KeySerialNumber i:nil='true'/>"
                                    + "<d2p2:PIN i:nil='true'/>"
-                                   + "<d2p2:IdentificationInformation>A52AFB9FB5B283A6C8C38377A6CB1D2C63CC59D3B0B29D2A0DF1C9A54F123D37536756C77B4A9B75E51BF028B51971E81C8B221533A3AFF4</d2p2:IdentificationInformation>"//Used for Magensa
+                                   + "<d2p2:Iden" +
+                                   "" +
+                                   "" +
+                                   "" +
+                                   "" +
+                                   "tificationInformation>A52AFB9FB5B283A6C8C38377A6CB1D2C63CC59D3B0B29D2A0DF1C9A54F123D37536756C77B4A9B75E51BF028B51971E81C8B221533A3AFF4</d2p2:IdentificationInformation>"//Used for Magensa
                                + "</d2p2:CardSecurityData>"
                                + "<d2p2:EcommerceSecurityData i:nil='true'/>"
                            + "</d2p2:TenderData>"
@@ -1714,7 +1720,7 @@ namespace SampleCode
                                + "<d2p1:CampaignId i:nil='true'/>"
                                + "<d2p1:Reference>11</d2p1:Reference>"//Used for Magensa
                                + "<d2p2:AccountType>NotSet</d2p2:AccountType>"
-                                                //Soft Descriptors
+                    //Soft Descriptors
                                + "<d2p2:AlternativeMerchantData>"
                                    + "<d2p1:CustomerServiceInternet>www.test.com</d2p1:CustomerServiceInternet>"
                                    + "<d2p1:CustomerServicePhone>303 3575700</d2p1:CustomerServicePhone>"
@@ -1773,8 +1779,8 @@ namespace SampleCode
                                + "<d2p2:PAN>5454545454545454</d2p2:PAN>"
                                + "<d2p2:Expire>1210</d2p2:Expire>"
                                    + trackData
-                                //+ "<d2p2:Track1Data i:nil='true'/>"
-                                //+ "<d2p2:Track2Data i:nil='true'/>"
+                    //+ "<d2p2:Track1Data i:nil='true'/>"
+                    //+ "<d2p2:Track2Data i:nil='true'/>"
                            + "</d2p2:CardData>"
                            + "<d2p2:CardSecurityData>"
                                + "<d2p2:AVSData>"
@@ -1801,7 +1807,7 @@ namespace SampleCode
                            + "<d2p1:CampaignId i:nil='true'/>"
                            + "<d2p1:Reference i:nil='true'/>"
                            + "<d2p2:AccountType>NotSet</d2p2:AccountType>"
-                                        //Soft Descriptors
+                    //Soft Descriptors
                            + "<d2p2:AlternativeMerchantData>"
                                + "<d2p1:CustomerServiceInternet>www.test.com</d2p1:CustomerServiceInternet>"
                                + "<d2p1:CustomerServicePhone>303 3575700</d2p1:CustomerServicePhone>"
@@ -1853,7 +1859,7 @@ namespace SampleCode
             if (_industryTypeValues.EntryMode == "TrackDataFromMSR")
             {
                 trackData = "\"Track1Data\":null, \"Track2Data\":\"5454545454545454=13121010134988000010\"";
-                //trackData = "\"Track1Data\":\"B5454545454545454^IPCOMMERCE/TESTCARD^1312101013490000000001000880000\", \"Track2Data\":null";
+                //trackData = "\"Track1Data\":\"B5454545454545454^NAB/TESTCARD^1312101013490000000001000880000\", \"Track2Data\":null";
             }
 
             if (ChkProcessAsMagensa.Checked)
@@ -1884,8 +1890,8 @@ namespace SampleCode
                                 + "\"PAN\":\"5454545454545454\","
                                 + "\"Expire\":\"1210\","
                                 + trackData
-                                //+ "\"Track1Data\":null,"
-                                //+ "\"Track2Data\":null"
+                    //+ "\"Track1Data\":null,"
+                    //+ "\"Track2Data\":null"
                             + "},"
                             + "\"CardSecurityData\":"
                             + "{"
@@ -1906,7 +1912,7 @@ namespace SampleCode
                                 + "\"IdentificationInformation\":\"A52AFB9FB5B283A6C8C38377A6CB1D2C63CC59D3B0B29D2A0DF1C9A54F123D37536756C77B4A9B75E51BF028B51971E81C8B221533A3AFF4\""//Used for Magensa
                             + "},"
                             + "\"EcommerceSecurityData\":null"
-                            +"},"
+                            + "},"
                             + "\"TransactionData\":"
                             + "{"
                                 + "\"Amount\":\"10.00\","
@@ -1915,8 +1921,8 @@ namespace SampleCode
                                 + "\"CampaignId\":null,"//Used for MPP
                                 + "\"Reference\":\"11\","//Used for Magensa
                                 + "\"AccountType\":\"NotSet\","
-                                    //Soft Descriptors - Not supported by all service providers
-                                    //+ "\"AlternativeMerchantData\":null,"           
+                    //Soft Descriptors - Not supported by all service providers
+                    //+ "\"AlternativeMerchantData\":null,"           
                                 + "\"AlternativeMerchantData\":"
                                 + "{"
                                     + "\"CustomerServiceInternet\":\"www.test.com\","
@@ -1934,7 +1940,7 @@ namespace SampleCode
                                     + "\"MerchantId\":null,"
                                     + "\"Name\":\"ABC Merchant\""
                                 + " },"
-                                    //END Soft Descriptors - Not supported by all service providers
+                    //END Soft Descriptors - Not supported by all service providers
                             + "\"ApprovalCode\":null,"
                             + "\"CashBackAmount\":\"0.00\","
                             + "\"CustomerPresent\":\"" + _industryTypeValues.CustomerPresent + "\","
@@ -1959,7 +1965,7 @@ namespace SampleCode
                             + "\"ScoreThreshold\":\".5\""//Used for Magensa
                         + "}"
                     + "}"
-                ;  
+                ;
                 /* With Interchange Data. Just comment out the above.
                 txn = "\"Transaction\":"
                     + "{"
@@ -2063,7 +2069,7 @@ namespace SampleCode
                     + "}"
                 ;                     
                  
-                 */				
+                 */
             }
             else
             {
@@ -2091,8 +2097,8 @@ namespace SampleCode
                                 + "\"PAN\":\"5454545454545454\","
                                 + "\"Expire\":\"1210\","
                                 + trackData
-                                //+ "\"Track1Data\":null,"
-                                //+ "\"Track2Data\":null"
+                    //+ "\"Track1Data\":null,"
+                    //+ "\"Track2Data\":null"
                             + "},"
                             + "\"CardSecurityData\":"
                             + "{"
@@ -2118,8 +2124,8 @@ namespace SampleCode
                                 + "\"CurrencyCode\":\"USD\","
                                 + "\"TransactionDateTime\":\"2012-03-22T14:57:28-06:00\","
                                 + "\"AccountType\":\"NotSet\","
-                                //Soft Descriptors - Not supported by all service providers
-                                //+ "\"AlternativeMerchantData\":null,"           
+                    //Soft Descriptors - Not supported by all service providers
+                    //+ "\"AlternativeMerchantData\":null,"           
                                 + "\"AlternativeMerchantData\":{"
                                 + "\"CustomerServiceInternet\":\"www.test.com\","
                                 + "\"CustomerServicePhone\":\"303 3575700\","
@@ -2136,7 +2142,7 @@ namespace SampleCode
                                 + "\"MerchantId\":null,"
                                 + "\"Name\":\"ABC Merchant\""
                                 + " },"
-                                //END Soft Descriptors - Not supported by all service providers
+                    //END Soft Descriptors - Not supported by all service providers
                                 + "\"ApprovalCode\":null,"
                                 + "\"CashBackAmount\":\"0.00\","
                                 + "\"CustomerPresent\":\"" + _industryTypeValues.CustomerPresent + "\","
@@ -2160,7 +2166,7 @@ namespace SampleCode
                             + "\"BatchAssignment\":null"
                         + "}"
                     + "}"
-                ;    
+                ;
             }
             if (_industryTypeValues.EntryMode == "TrackDataFromMSR")
             {//Replace with a value if TrackDataFromMSR
@@ -2187,12 +2193,12 @@ namespace SampleCode
                     QueryBatch();
                 if (itemChecked == "QueryTransactionsSummary")
                     QueryTransactionsSummary();
-                if (itemChecked == "QueryTransactionsFamilies") 
+                if (itemChecked == "QueryTransactionsFamilies")
                     QueryTransactionsFamilies();
                 if (itemChecked == "QueryTransactionsDetail")
                     QueryTransactionsDetail();
             }
-            
+
         }
 
         private void QueryBatch()
@@ -2206,8 +2212,8 @@ namespace SampleCode
                         + "{"
                             + "\"BatchDateRange\":"
                             + "{"
-                                + "\"EndDateTime\":\""+ dtpEndTimeTMS.Value.ToUniversalTime().ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss") +"\","
-                                + "\"StartDateTime\":\""+ dtpStartTimeTMS.Value.ToUniversalTime().ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss") +"\""
+                                + "\"EndDateTime\":\"" + dtpEndTimeTMS.Value.ToUniversalTime().ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss") + "\","
+                                + "\"StartDateTime\":\"" + dtpStartTimeTMS.Value.ToUniversalTime().ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss") + "\""
                             + "},"
                             + "\"BatchIds\":null,"
                             + "\"MerchantProfileIds\":null,"
@@ -2267,7 +2273,7 @@ namespace SampleCode
                     + "</QueryTransactionsSummary>"
                     ;
 
-                CreateRequest(_tms + @"/transactionsSummary", "POST", strQueryTransactionsSummary, _SessionToken, "", 
+                CreateRequest(_tms + @"/transactionsSummary", "POST", strQueryTransactionsSummary, _SessionToken, "",
                     TransactionType.QueryTransactionsSummary);
             }
         }
@@ -2339,7 +2345,7 @@ namespace SampleCode
                    + "</PagingParameters>"
                 ;
         }
-        
+
         private string PagingParameters_Json()
         {
             return "\"PagingParameters\":"
@@ -2352,9 +2358,9 @@ namespace SampleCode
 
         private string QueryTransactionsParameters()
         {
-            string strTxnId = (TxtTransactionId.Text.Length > 0) ? "<d2p1:TransactionIds xmlns:d3p1='http://schemas.microsoft.com/2003/10/Serialization/Arrays'><d3p1:string>" + TxtTransactionId.Text + "</d3p1:string></d2p1:TransactionIds>" : "<d2p1:TransactionIds xmlns:d3p1='http://schemas.ipcommerce.com/CWS/v2.0/DataServices' i:nil='true' />" ;
+            string strTxnId = (TxtTransactionId.Text.Length > 0) ? "<d2p1:TransactionIds xmlns:d3p1='http://schemas.microsoft.com/2003/10/Serialization/Arrays'><d3p1:string>" + TxtTransactionId.Text + "</d3p1:string></d2p1:TransactionIds>" : "<d2p1:TransactionIds xmlns:d3p1='http://schemas.ipcommerce.com/CWS/v2.0/DataServices' i:nil='true' />";
             return
-                "<QueryTransactionsParameters xmlns:d2p1='http://schemas.ipcommerce.com/CWS/v2.0/DataServices/TMS'>"
+                "<QueryTransactionsParameters xmlns:d2p1='http://schemas.ipcommerce" + ".com/CWS/v2.0/DataServices/TMS'>"
                     + "<d2p1:Amounts xmlns:d3p1='http://schemas.microsoft.com/2003/10/Serialization/Arrays' i:nil='true' />"
                     + "<d2p1:ApprovalCodes xmlns:d3p1='http://schemas.microsoft.com/2003/10/Serialization/Arrays' i:nil='true' />"
                     + "<d2p1:BatchIds xmlns:d3p1='http://schemas.microsoft.com/2003/10/Serialization/Arrays' i:nil='true' />"
@@ -2439,7 +2445,7 @@ namespace SampleCode
             RTxtSummary.SelectionColor = Color.Blue;
             RTxtSummary.AppendText("**************************************************************\r\n\r\n");
 
-            #region Step1_BuildServiceInfoSamples 
+            #region Step1_BuildServiceInfoSamples
             //STEP 1.  Build Service Information Data
             //First generate the ServiceInformation Samples
             BuildServiceInfoSamples();
@@ -2476,7 +2482,7 @@ namespace SampleCode
             RTxtSummary.AppendText("\r\n***** Authorize *****\r\n\r\n");
             _WorkflowId = TxtSvcId.Text;
             Authorize();
-            
+
             RTxtSummary.SelectionColor = Color.DarkMagenta;
             RTxtSummary.SelectionFont = new Font(currentFont, newFontStyle);
             RTxtSummary.AppendText("\r\n***** Undo *****\r\n\r\n");
@@ -2627,7 +2633,7 @@ namespace SampleCode
             _WorkflowId = TxtSvcId.Text;
             CaptureSelective();
 
-            if(ChkProcessAsMagensa.Checked)
+            if (ChkProcessAsMagensa.Checked)
             {
                 RTxtSummary.SelectionColor = Color.DarkMagenta;
                 RTxtSummary.SelectionFont = new Font(currentFont, newFontStyle);
@@ -2675,7 +2681,7 @@ namespace SampleCode
             SignOnWithToken();
 
             //Manage Application Data
-            if(ChkSaveDeleteApplicationData.Checked)
+            if (ChkSaveDeleteApplicationData.Checked)
             {
                 RTxtSummary.SelectionColor = Color.DarkMagenta;
                 RTxtSummary.SelectionFont = new Font(currentFont, newFontStyle);
@@ -2693,7 +2699,7 @@ namespace SampleCode
                 RTxtSummary.AppendText("\r\n***** GetApplicationData *****\r\n\r\n");
                 GetApplicationData();
             }
-            
+
             //RTxtSummary.SelectionColor = Color.DarkMagenta;
             //RTxtSummary.SelectionFont = new Font(currentFont, newFontStyle);
             //RTxtSummary.AppendText("\r\n***** DeleteApplicationData *****\r\n\r\n");
@@ -2855,7 +2861,7 @@ namespace SampleCode
                 //response.LoadXml(_Response);
                 ////Check what kind of response we're processing
                 //if (response.DocumentElement.Name == "BankcardTransactionResponsePro")
-                    return ProcessBankcardTransactionResponsePro_Json(_Response, _transactionType);
+                return ProcessBankcardTransactionResponsePro_Json(_Response, _transactionType);
             }
             catch (Exception)
             {
@@ -3061,7 +3067,7 @@ namespace SampleCode
                 response r = new response(_transactionType, "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
                                           "", "", "", "", "", "", "", "", "", "", "", "", "");
 
-//TODO : Figure out how to easily parse the JSON
+                //TODO : Figure out how to easily parse the JSON
                 //First Check to see if this was a transaction
                 //XmlNodeList nodes = _response.GetElementsByTagName("Status");
                 //if (nodes != null && nodes.Count > 0 && nodes[0].InnerText != "NotSet")
@@ -3077,9 +3083,9 @@ namespace SampleCode
 
                 //nodes = _response.GetElementsByTagName("TransactionId");
                 //if (nodes != null && nodes.Count > 0 && nodes[0].InnerText != "NotSet")
-                    
+
                 //ToDo : Need a better approach to parse a Json Response
-                r.TransactionId = _response.Substring(_response.IndexOf("\"TransactionId\":\"")+17, 32);
+                r.TransactionId = _response.Substring(_response.IndexOf("\"TransactionId\":\"") + 17, 32);
                 r.TransactionType = _transactionType;
 
                 //nodes = _response.GetElementsByTagName("OriginatorTransactionId");
@@ -3272,8 +3278,8 @@ namespace SampleCode
 
             if (CboPTLSVersion.Text == "1.17.18")
             {
-                _svcInfo = @"https://cws-01" + strCert + ".ipcommerce.com:443/REST/2.0.18/SvcInfo";
-                _txn = @"https://cws-01" + strCert + ".ipcommerce.com:443/REST/2.0.18/Txn";
+                _svcInfo = @"https://api.cert.nabcommerce.com/REST/2.0.18/SvcInfo";
+                _txn = @"https://api.cert.nabcommerce.com/REST/2.0.18/Txn";
             }
             else
             {
@@ -3349,33 +3355,53 @@ namespace SampleCode
 
             public override string ToString()
             {
-// Generates the text shown in the combo box
+                // Generates the text shown in the combo box
                 return Name;
             }
         }
 
         public enum TransactionType : int
         {
-            [System.Runtime.Serialization.EnumMemberAttribute()] AuthorizeAndCapture = 0,
-            [System.Runtime.Serialization.EnumMemberAttribute()] Authorize = 1,
-            [System.Runtime.Serialization.EnumMemberAttribute()] Capture = 2,
-            [System.Runtime.Serialization.EnumMemberAttribute()] CaptureAll = 3,
-            [System.Runtime.Serialization.EnumMemberAttribute()] CaptureSelective = 4,
-            [System.Runtime.Serialization.EnumMemberAttribute()] ReturnById = 5,
-            [System.Runtime.Serialization.EnumMemberAttribute()] ReturnUnlinked = 6,
-            [System.Runtime.Serialization.EnumMemberAttribute()] Adjust = 7,
-            [System.Runtime.Serialization.EnumMemberAttribute()] Undo = 8,
-            [System.Runtime.Serialization.EnumMemberAttribute()] QueryAccount = 9,
-            [System.Runtime.Serialization.EnumMemberAttribute()] Verify = 10,
-            [System.Runtime.Serialization.EnumMemberAttribute()] CaptureAllAsync = 11,
-            [System.Runtime.Serialization.EnumMemberAttribute()] CaptureSelectiveAsync = 12,
-            [System.Runtime.Serialization.EnumMemberAttribute()] ManageAccount = 13,
-            [System.Runtime.Serialization.EnumMemberAttribute()] ManageAccountById = 14,
-            [System.Runtime.Serialization.EnumMemberAttribute()] QueryBatch = 15,
-            [System.Runtime.Serialization.EnumMemberAttribute()] QueryTransactionsSummary = 16,
-            [System.Runtime.Serialization.EnumMemberAttribute()] QueryTransactionsFamilies = 17,
-            [System.Runtime.Serialization.EnumMemberAttribute()] QueryTransactionsDetail = 18,
-            [System.Runtime.Serialization.EnumMemberAttribute()] NotSet = 19
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            AuthorizeAndCapture = 0,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            Authorize = 1,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            Capture = 2,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            CaptureAll = 3,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            CaptureSelective = 4,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            ReturnById = 5,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            ReturnUnlinked = 6,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            Adjust = 7,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            Undo = 8,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            QueryAccount = 9,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            Verify = 10,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            CaptureAllAsync = 11,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            CaptureSelectiveAsync = 12,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            ManageAccount = 13,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            ManageAccountById = 14,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            QueryBatch = 15,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            QueryTransactionsSummary = 16,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            QueryTransactionsFamilies = 17,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            QueryTransactionsDetail = 18,
+            [System.Runtime.Serialization.EnumMemberAttribute()]
+            NotSet = 19
         }
 
         public class response
