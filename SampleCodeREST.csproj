@@ -54,23 +54,23 @@
   <ItemGroup>
     <Reference Include="Ipc.Luna.ServiceFactory.Endpoints.CWS.RestContracts, Version=2.0.14.26, Culture=neutral, PublicKeyToken=45cecf3184f8f853, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>TEMP\Ipc.Luna.ServiceFactory.Endpoints.CWS.RestContracts.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\IPC\git2\sis\lib\DataContracts\Ipc.Luna.ServiceFactory.Endpoints.CWS.RestContracts.dll</HintPath>
     </Reference>
     <Reference Include="Ipc.Luna.ServiceFactory.Endpoints.CWS.SI.DataContracts, Version=2.0.14.26, Culture=neutral, PublicKeyToken=45cecf3184f8f853, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>TEMP\Ipc.Luna.ServiceFactory.Endpoints.CWS.SI.DataContracts.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\IPC\git2\sis\lib\DataContracts\Ipc.Luna.ServiceFactory.Endpoints.CWS.SI.DataContracts.dll</HintPath>
     </Reference>
     <Reference Include="Ipc.Luna.ServiceFactory.Endpoints.CWS.TP.DataContracts, Version=2.0.14.26, Culture=neutral, PublicKeyToken=45cecf3184f8f853, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>TEMP\Ipc.Luna.ServiceFactory.Endpoints.CWS.TP.DataContracts.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\IPC\git2\sis\lib\DataContracts\Ipc.Luna.ServiceFactory.Endpoints.CWS.TP.DataContracts.dll</HintPath>
     </Reference>
     <Reference Include="Ipc.Luna.ServiceFactory.Endpoints.DS.DataContracts, Version=2.0.14.34, Culture=neutral, PublicKeyToken=45cecf3184f8f853, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>TEMP\Ipc.Luna.ServiceFactory.Endpoints.DS.DataContracts.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\IPC\git2\sis\lib\DataContracts\Ipc.Luna.ServiceFactory.Endpoints.DS.DataContracts.dll</HintPath>
     </Reference>
     <Reference Include="Ipc.Luna.ServiceFactory.Endpoints.TMS, Version=2.0.14.35, Culture=neutral, PublicKeyToken=45cecf3184f8f853, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>TEMP\Ipc.Luna.ServiceFactory.Endpoints.TMS.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\IPC\git2\sis\lib\DataContracts\Ipc.Luna.ServiceFactory.Endpoints.TMS.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
